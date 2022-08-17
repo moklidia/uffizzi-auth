@@ -21,3 +21,4 @@ runs:
     - 'login_by_jwt'
   env:
     OIDC_TOKEN: ${{ inputs.oidc-token }}
+    UFFIZZI_SERVER: ${{ inputs.server }}
